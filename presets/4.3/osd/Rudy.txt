@@ -1,0 +1,47 @@
+#$ TITLE: Rudy OSD settings
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: rudy, OSD, analog
+#$ AUTHOR: Rudy
+
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+set osd_warn_rssi = ON
+set osd_warn_link_quality = ON
+set osd_rssi_alarm = 30
+set osd_cap_alarm = 1200
+set osd_alt_alarm = 400
+set osd_rssi_pos = 50
+set osd_link_quality_pos = 12321
+set osd_link_tx_power_pos = 65
+set osd_rssi_dbm_pos = 8257
+set osd_tim_1_pos = 449
+set osd_tim_2_pos = 14807
+set osd_remaining_time_estimate_pos = 450
+set osd_g_force_pos = 441
+set osd_vtx_channel_pos = 8641
+set osd_current_pos = 8630
+set osd_mah_drawn_pos = 12339
+set osd_gps_speed_pos = 8449
+set osd_gps_lon_pos = 57840
+set osd_gps_lat_pos = 57824
+set osd_gps_sats_pos = 8289
+set osd_home_dir_pos = 8622
+set osd_home_dist_pos = 8652
+set osd_altitude_pos = 28952
+set osd_pid_roll_pos = 33
+set osd_pid_pitch_pos = 65
+set osd_pid_yaw_pos = 97
+set osd_warnings_pos = 14729
+set osd_avg_cell_voltage_pos = 14380
+set osd_flip_arrow_pos = 398
+set osd_core_temp_pos = 467
+set osd_log_status_pos = 8250
+set osd_stat_max_dist = ON
+set osd_stat_min_rssi = OFF
+set osd_stat_max_alt = ON
+set osd_stat_max_g_force = ON
+set osd_stat_min_link_quality = ON
+set osd_stat_flight_dist = ON
+set osd_menu_background = GRAY

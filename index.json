@@ -377,6 +377,7 @@
       "reset",
       "reset statistics",
       "RPM",
+      "rudy",
       "rush",
       "rush tank",
       "rushfpv",
@@ -826,6 +827,23 @@
         "switch"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/Rudy.txt",
+      "hash": "81c655b4c8f382ad65be698f3f183e9cbcd1dd548e2ea098004a4df6e5eab892",
+      "title": "Rudy OSD settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rudy",
+        "OSD",
+        "analog"
+      ],
+      "author": "Rudy",
       "priority": 0
     },
     {
