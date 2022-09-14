@@ -809,6 +809,25 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/modes/Rudy.txt",
+      "hash": "6a9c40e5df5d0ffb706fbec680c4f58d15f0d3a595cd0c60e0fe7fb1982e0c76",
+      "title": "Rudy modes",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rudy",
+        "mode",
+        "modes",
+        "aux",
+        "switch"
+      ],
+      "author": "Rudy",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/modes/defaults.txt",
       "hash": "16a19e27a46efcd9f86d56f17e8fe82356921399cc0c5502e257e33ef8c321c3",
       "title": "Default 4.3 Modes and Adjustment settings",
