@@ -6,12 +6,11 @@
 #$ KEYWORDS: racing, freestyle, rudy
 #$ AUTHOR: Rudy
 
-#$ PARSER: MARKED
 #$ DESCRIPTION: [ Rudy universal rates ]
 #$ DESCRIPTION:
 #$ DESCRIPTION: General rates good for both racing and freestyle.
 #$ DESCRIPTION: 660 degrees/sec for roll and pitch, 560 degrees/sec for yaw
-#$ DESCRIPTION: 
+
 #$ INCLUDE: presets/4.3/rates/defaults.txt
 
 rateprofile 4
