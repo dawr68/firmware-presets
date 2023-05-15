@@ -1,14 +1,16 @@
 #$ TITLE: Rudy Rates (racing and freestyle)
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: racing, freestyle
+#$ KEYWORDS: racing, freestyle, rudy
 #$ AUTHOR: Rudy
 
 #$ PARSER: MARKED
- 
-#$ DESCRIPTION: FREESTYLE on rateprofile 6: 720 degrees/sec for roll and pitch, 530 - for yaw
-#$ DESCRIPTION: RACING on rateprofile 5: 530 degrees/sec for all roll, pitch and yaw
+#$ DESCRIPTION: [ Rudy universal rates ]
+#$ DESCRIPTION:
+#$ DESCRIPTION: General rates good for both racing and freestyle.
+#$ DESCRIPTION: 660 degrees/sec for roll and pitch, 560 degrees/sec for yaw
 #$ DESCRIPTION: 
 #$ INCLUDE: presets/4.3/rates/defaults.txt
 
@@ -17,22 +19,9 @@ set rates_type = ACTUAL
 set roll_rc_rate = 16
 set pitch_rc_rate = 16
 set yaw_rc_rate = 16
-set roll_expo = 55
-set pitch_expo = 55
-set yaw_expo = 55
-set yaw_srate = 53
-set roll_srate = 53
-set pitch_srate = 53
-
-rateprofile 5
-set rates_type = ACTUAL
-set roll_rc_rate = 16
-set pitch_rc_rate = 16
-set yaw_rc_rate = 16
-set roll_expo = 55
-set pitch_expo = 55
-set yaw_expo = 55
-set yaw_srate = 53
-set roll_srate = 72
-set pitch_srate = 72
-
+set roll_expo = 56
+set pitch_expo = 56
+set yaw_expo = 56
+set yaw_srate = 56
+set roll_srate = 66
+set pitch_srate = 66
