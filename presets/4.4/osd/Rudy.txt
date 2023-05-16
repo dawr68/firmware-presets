@@ -1,0 +1,49 @@
+#$ TITLE: Rudy OSD settings
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: rudy, OSD, hd, hdzero, analog
+#$ AUTHOR: Rudy
+
+#$ DESCRIPTION: [ Rudy OSD settings]
+#$ DESCRIPTION:
+#$ DESCRIPTION: For HDZero and analog systems.
+#$ DESCRIPTION: 3 osd profiles:
+#$ DESCRIPTION:     - Racing with only basic elements
+#$ DESCRIPTION:     - General more elements for general usage with GPS
+#$ DESCRIPTION:     - Full with all usefull elements, also for 
+#$ INCLUDE: presets/4.4/osd/defaults.txt
+
+#$ OPTION BEGIN (CHECKED): HDZero
+    set osd_warn_bitmask = 24575
+    set osd_alt_alarm = 120
+    set osd_vbat_pos = 234
+    set osd_link_quality_pos = 13324
+    set osd_tim_2_pos = 15916
+    set osd_flymode_pos = 8640
+    set osd_throttle_pos = 8608
+    set osd_vtx_channel_pos = 8672
+    set osd_current_pos = 9707
+    set osd_mah_drawn_pos = 14899
+    set osd_gps_speed_pos = 12845
+    set osd_gps_lon_pos = 29216
+    set osd_gps_lat_pos = 29184
+    set osd_gps_sats_pos = 12288
+    set osd_home_dir_pos = 13858
+    set osd_home_dist_pos = 13859
+    set osd_altitude_pos = 30125
+    set osd_warnings_pos = 14836
+    set osd_avg_cell_voltage_pos = 14905
+    set osd_efficiency_pos = 9739
+    set osd_stat_bitmask = 17182268
+    set osd_profile = 3
+    set osd_profile_1_name = Racing
+    set osd_profile_2_name = General
+    set osd_profile_3_name = Full
+    set osd_displayport_device = MSP
+    set osd_canvas_width = 50
+    set osd_canvas_height = 18
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Analog
+#$ OPTION END
