@@ -1,0 +1,12 @@
+#$ TITLE: Rudy complete preset
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OTHER
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: Rudy, complete, total, preset, modes, osd, rates, channels
+#$ AUTHOR: Rudy
+#$ DESCRIPTION: [ Rudy complete preset ]
+#$ DESCRIPTION: Complete preset with key parameters to setup new model.
+#$ DESCRIPTION:
+#$ INCLUDE: presets/4.4/rates/Rudy.txt
+#$ INCLUDE: presets/4.4/modes/Rudy.txt
+#$ INCLUDE: presets/4.4/osd/Rudy.txt
