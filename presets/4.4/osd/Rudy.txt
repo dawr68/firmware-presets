@@ -33,7 +33,7 @@
     set osd_home_dist_pos = 13859
     set osd_altitude_pos = 30125
     set osd_warnings_pos = 14836
-    set osd_avg_cell_voltage_pos = 14905
+    set osd_avg_cell_voltage_pos = 14906
     set osd_efficiency_pos = 9739
     set osd_stat_bitmask = 17182268
     set osd_profile = 3
