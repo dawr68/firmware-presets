@@ -4782,6 +4782,147 @@
       ],
       "author": "Betaflight",
       "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/tune/defaults.txt",
+      "hash": "ecc8a3fc34041fe76c3f552181c84595905902fe07bd1418e4f8b221724182da",
+      "title": "Betaflight 4.5 TUNE defaults",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/tune/karate/karate_brushless_whoop.txt",
+      "hash": "9870dd13a8fddf113ffab78e6a9df88407db181afc939037a22afd4f777a142b",
+      "title": "Karate brushless whoop",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "karate",
+        "2s",
+        "1S",
+        "race",
+        "brushless",
+        "whoop",
+        "65mm",
+        "sugarK",
+        "KarateBrot"
+      ],
+      "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/karate/karate_freestyle_5_inch.txt",
+      "hash": "77bd25b4b2d701dc98b6a09596793d78f5d61abcc5935b6e86671f598cb8e5e8",
+      "title": "Freestyle 5\" Karate Style",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "karate",
+        "6S",
+        "5 inch",
+        "5\"",
+        "sugarK",
+        "limon",
+        "ctzsnooze",
+        "karateBrot",
+        "freestyle"
+      ],
+      "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/karate/karate_race.txt",
+      "hash": "da3e42b8ccd5d387a73c15a6240e08166129d892ef0f3bde64a2da57e555bfa7",
+      "title": "Karate Race 6s 5\"",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "karate",
+        "6S",
+        "race",
+        "world champion",
+        "5 inch",
+        "5\"",
+        "sugarK",
+        "limon",
+        "ctzsnooze",
+        "KarateBrot"
+      ],
+      "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/karate/karate_race_lite.txt",
+      "hash": "bb16b9c3c99d26577111fd252bc13fcb5a54fb7650dc467cb846dd3298b42b6f",
+      "title": "Karate 'Viper Lite' Race  5\"",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "karate",
+        "race",
+        "5 inch",
+        "5\"",
+        "sugarK",
+        "limon",
+        "ctzsnooze",
+        "KarateBrot",
+        "ultralite",
+        "viper",
+        "viper lite",
+        "sliders"
+      ],
+      "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/karate/tiny_karate.txt",
+      "hash": "dc9a399d2d11aed612690fe3ffb7c999d9732e0f58653770a1d66474f500500d",
+      "title": "533 TinyTrainer “spec” Karate",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "karate",
+        "race",
+        "533",
+        "3 inch",
+        "3\"",
+        "sugarK",
+        "shames",
+        "tiny",
+        "trainer",
+        "spec",
+        "tinyTrainer"
+      ],
+      "author": "sugarK",
+      "priority": 1000000000000
     }
   ]
 }
