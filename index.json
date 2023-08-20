@@ -136,7 +136,8 @@
       "3.5",
       "4.2",
       "4.3",
-      "4.4"
+      "4.4",
+      "4.5"
     ],
     "category": [
       "FILTERS",
@@ -284,6 +285,7 @@
       "CRSF",
       "ctzsnooze",
       "CTZsoonze",
+      "custom commands",
       "davide",
       "davide fpv",
       "DDC",
@@ -377,6 +379,7 @@
       "names",
       "nano",
       "nanohawk",
+      "nmea",
       "no rpm",
       "noisy",
       "normal",
@@ -3533,12 +3536,13 @@
     },
     {
       "fullPath": "presets/4.3/vtx/eachine_vtx.txt",
-      "hash": "8eb8bb496b58c14cae40618d145fbf10e843db55c6911ac3357fcdbceab17ce4",
+      "hash": "9b6d35ce9a14900e5cf67b0f39a7dda3b6f918f56e6699ec46b5b5887108e3c9",
       "title": "Eachine VTX Tables",
       "firmware_version": [
         "4.2",
         "4.3",
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -3876,7 +3880,7 @@
     },
     {
       "fullPath": "presets/4.4/rates/Rudy.txt",
-      "hash": "5011e40c2779a943e915652e383e433e1a46f289aa42b96af678abec9dcab390",
+      "hash": "a1df5b420b9fba38d063053ace8e5b29d4a7306d07ff58cb8eccaa964eee52fc",
       "title": "Rudy Rates (racing and freestyle)",
       "firmware_version": [
         "4.4"
@@ -4066,7 +4070,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/karate/karate_brushless_whoop.txt",
-      "hash": "4b0b53d417a22448f4dbd93934dca6d0c57a9a0cc81f87bc490a93572afc50d2",
+      "hash": "107b213e96977c35f94618c6228c7989db84d19131ff3e0719d18577832b26e5",
       "title": "Karate brushless whoop",
       "firmware_version": [
         "4.4"
@@ -4744,6 +4748,40 @@
       ],
       "author": "sugarK",
       "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.5/other/custom_nmea.txt",
+      "hash": "10931aba011ca232171d37cdacdc287d5f261a8de12bb2f75bb9eef3f9c7b3bc",
+      "title": "Custom NMEA commands",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "gps",
+        "custom commands",
+        "nmea"
+      ],
+      "author": "KMfpv",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/reset_gps.txt",
+      "hash": "48ed02ca3989ba69a4d5924ae5e41519364286923203d792c7c7359d91964049",
+      "title": "Reset GPS settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "GPS"
+      ],
+      "author": "Betaflight",
+      "priority": 0
     }
   ]
 }
