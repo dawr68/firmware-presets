@@ -1,0 +1,177 @@
+# 
+
+# diff
+
+# version
+# Betaflight / STM32F7X2 (S7X2) 4.4.2 Jun  5 2023 / 16:43:24 (23d066d08) MSP API: 1.45
+
+# config: YES
+
+# start the command batch
+batch start
+
+board_name MATEKF722MINI
+manufacturer_id MTKS
+
+# name: F5L
+
+# feature
+feature GPS
+feature OSD
+feature ESC_SENSOR
+
+# serial
+serial 0 2 115200 57600 0 115200
+serial 2 131073 115200 57600 0 115200
+serial 3 2048 115200 57600 0 115200
+serial 5 1024 115200 57600 0 115200
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# map
+map TAER1234
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 1 1300 1700 0 0
+aux 2 2 1 1700 2100 0 0
+aux 3 46 4 1700 2100 0 0
+aux 4 13 3 1700 2100 0 0
+aux 5 35 3 1700 2100 0 0
+aux 6 39 2 1300 1700 0 0
+aux 7 40 2 1700 2100 0 0
+
+# vtxtable
+vtxtable bands 6
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A CUSTOM     0    0    0    0    0    0    0    0
+vtxtable band 2 BOSCAM_B B CUSTOM     0    0    0    0    0    0    0    0
+vtxtable band 3 BOSCAM_E E CUSTOM  5705    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F CUSTOM  5740 5760    0 5800    0    0    0    0
+vtxtable band 5 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 6 LOWBAND  L CUSTOM     0    0    0    0    0    0    0    0
+vtxtable powerlevels 5
+vtxtable powervalues 14 23 27 30 0
+vtxtable powerlabels 25 200 500 MAX 0
+
+# master
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 0
+set dyn_notch_count = 2
+set dyn_notch_min_hz = 125
+set dyn_notch_max_hz = 650
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+set acc_lpf_hz = 10
+set acc_calibration = -18,7,-257,1
+set baro_hardware = AUTO
+set rc_smoothing_auto_factor = 52
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT600
+set failsafe_procedure = GPS-RESCUE
+set align_board_roll = 180
+set align_board_yaw = 180
+set beeper_dshot_beacon_tone = 3
+set yaw_motors_reversed = ON
+set small_angle = 180
+set gps_sbas_mode = AUTO
+set gps_auto_baud = ON
+set gps_ublox_use_galileo = ON
+set gps_set_home_point_once = ON
+set gps_rescue_alt_mode = FIXED_ALT
+set gps_rescue_return_alt = 70
+set gps_rescue_ground_speed = 1200
+set gps_rescue_min_sats = 6
+set gps_rescue_allow_arming_without_fix = ON
+set simplified_gyro_filter = OFF
+set report_cell_voltage = ON
+set osd_warn_bitmask = 24575
+set osd_alt_alarm = 120
+set osd_vbat_pos = 234
+set osd_link_quality_pos = 13324
+set osd_tim_2_pos = 15916
+set osd_flymode_pos = 8640
+set osd_throttle_pos = 8608
+set osd_vtx_channel_pos = 8672
+set osd_current_pos = 9707
+set osd_mah_drawn_pos = 14899
+set osd_gps_speed_pos = 12845
+set osd_gps_lon_pos = 29216
+set osd_gps_lat_pos = 29184
+set osd_gps_sats_pos = 12288
+set osd_home_dir_pos = 13858
+set osd_home_dist_pos = 13859
+set osd_altitude_pos = 30125
+set osd_warnings_pos = 14836
+set osd_avg_cell_voltage_pos = 14906
+set osd_efficiency_pos = 9739
+set osd_stat_bitmask = 17182268
+set osd_profile = 3
+set osd_profile_1_name = Racing
+set osd_profile_2_name = General
+set osd_profile_3_name = Full
+set osd_displayport_device = MSP
+set osd_canvas_width = 50
+set osd_canvas_height = 18
+set debug_mode = GYRO_SCALED
+set vtx_band = 5
+set vtx_channel = 7
+set vtx_power = 1
+set vtx_freq = 5880
+set vcd_video_system = HD
+set rpm_filter_harmonics = 1
+set rpm_filter_min_hz = 125
+set craft_name = F5L
+set pilot_name = Rudy
+
+profile 3
+
+# profile 3
+set profile_name = GoPro9
+set dterm_lpf1_dyn_min_hz = 101
+set dterm_lpf1_dyn_max_hz = 202
+set dterm_lpf1_dyn_expo = 10
+set dterm_lpf1_static_hz = 101
+set dterm_lpf2_static_hz = 202
+set p_pitch = 55
+set i_pitch = 99
+set d_pitch = 65
+set f_pitch = 0
+set p_roll = 76
+set i_roll = 136
+set d_roll = 57
+set f_roll = 0
+set p_yaw = 110
+set i_yaw = 150
+set f_yaw = 0
+set d_min_roll = 46
+set d_min_pitch = 52
+set dyn_idle_min_rpm = 35
+set dyn_idle_p_gain = 35
+set simplified_pids_mode = RP
+set simplified_d_gain = 155
+set simplified_pi_gain = 170
+set simplified_dmax_gain = 70
+set simplified_feedforward_gain = 0
+set simplified_pitch_pi_gain = 70
+set simplified_dterm_filter_multiplier = 135
+
+rateprofile 3
+
+# rateprofile 3
+set roll_rc_rate = 22
+set pitch_rc_rate = 18
+set yaw_rc_rate = 14
+set roll_expo = 22
+set pitch_expo = 18
+set yaw_expo = 14
+set roll_srate = 72
+set pitch_srate = 58
+set yaw_srate = 44
+
+# end the command batch
+batch end
+
+# 
